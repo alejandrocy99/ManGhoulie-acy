@@ -51,5 +51,7 @@
         "temp/": true,
         "Temp/": true
     },
+
     "dotnet.defaultSolution": "ManGhoulie-acy-main.sln"
+
 }
