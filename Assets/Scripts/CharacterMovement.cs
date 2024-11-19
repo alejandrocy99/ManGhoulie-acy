@@ -48,6 +48,10 @@ public class CharacterMovement : MonoBehaviour
         }
         anim.SetFloat("Speed", Mathf.Abs(moveDirection));
 
+        if(Input.GetButtonDown("Fire1")){
+            Attack();
+        }
+
     }
     void flip(){
         facingRight = !facingRight;
